@@ -1,0 +1,177 @@
+ <style>
+        
+     html {
+  scroll-behavior: smooth;
+}
+    body {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        background-image: url(assets/img/YiLF5U.jpg);
+    }
+        
+        
+    #section1 {
+  height: 1200px;
+}    
+    #section2 {
+  height: 1200px;
+}
+    #section3 {
+  height: 1200px;
+}
+    #section4 {
+  height: 1200px;
+}
+
+        
+        
+                
+        
+     
+.header {
+  padding: 10px 16px;
+    outline-style: solid;
+}
+        
+
+.sticky {
+  position: fixed;
+  top: 0;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.sticky + p {
+  padding-top: 102px;
+}
+        
+       
+        
+        
+    h1{
+        font-family: "Gotham", sans-serif;
+        font-size: 80px;
+        font-weight: bold;
+        font-style: normal;
+        margin: 1em 0 .4em;
+        color: black;
+    }
+        
+
+      h2{
+        font-family: "Gotham", sans-serif;
+        font-size: 60px;
+        font-weight: bold;
+        font-style: normal;
+        text-align:center;
+        margin: 1em 0 .4em;
+        color: navajowhite;
+    }
+        
+    h3{ 
+    font-family: "Gotham", sans-serif;
+    font-weight: normal;
+    color: white;
+    margin: 1em 0 .4em; 
+        }
+    h4{
+        text-align: center;
+        font-family: "Gotham", sans-serif;
+        border: none;
+        font-size: 10px;
+        font-style: italic;
+        color: white;
+    }
+        
+        
+ p{
+        font-family: "Gotham", 400;
+        font-size: 1em;
+        line-height: 1.6;
+        color: white;
+        text-align:left;
+        width: 100%;
+        margin: 1;
+        margin-bottom: 1em
+    }
+        
+.button {
+  background-color: #4CAF50; 
+  font-family: "Gotham", sans-serif;
+  border: none;
+  font-weight: bold;        
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  width: 150px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: navajowhite ;
+  color: black; 
+  border: 2px solid #000000;
+
+}
+.button1:hover {
+  background-color: #000000;
+  color: navajowhite;
+}
+.button2 {
+  background-color: navajowhite; 
+  color: black; 
+  border: 2px solid #000000;
+}
+.button2:hover {
+  background-color: #000000;
+  color: navajowhite;
+}
+.button3 {
+  background-color: navajowhite; 
+  color: black; 
+  border: 2px solid #000000;
+}
+.button3:hover {
+  background-color: #000000;
+  color: navajowhite;
+}
+.button4 {
+  background-color: navajowhite; 
+  color: black; 
+  border: 2px solid #000000;
+}
+.button4:hover {
+  background-color: #000000;
+  color: navajowhite;
+}
+        
+        
+  * {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.thumbnail {
+        transition: transform .2s;
+    } 
+.thumbnail:hover {
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+}
+
+    </style>
